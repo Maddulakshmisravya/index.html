@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hostel registration.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <fieldset border="10px">
+        <form action="login.html" onsubmit="return validate()" id="va">
+
+    <table border="5px">
+
+        <div>
+        <tr class="c">
+            <td><img src="vishnu.jpg" alt=""width="120px"height="150px"></td>
+            <td><h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SRI VISHNU EDUCATIONAL SOCIETY</h1><br><P>SHRI VISHNU ENGINEERING COLLEGE FOR WOMEN(A)::BHIMAVARAM</P><br>
+                <h2 align="center">Hostel Registration</h2></td>
+        </tr>
+        </div>
+    </table>
+    <h3><u>PERSONAL INFORMATION</u></h3>
+    <table>
+        <tr>
+            <td><label for="fn"><b>Full Name:</b></label><input type="text"id="f"><br><br>
+                <label for="er">EAPCET Rank:</label><input type="text"id="er">
+                <br><br><label for="br">Branch:</label><br><select name="branch" id="branch"> 
+                    <option value="IT">IT</option> 
+                    <option value="CSE">CSE</option> 
+                    <option value="CSE-AIDS">CSE-AIDS</option> 
+                    <option value="CSC">CSC</option> 
+                    <option value="CSE-AIML">CSE-AIMl</option> 
+                    <option value="ECE">ECE</option> 
+                    <option value="EEE">EEE</option> 
+                    <option value="ME">ME</option> 
+                    <option value="CE">CE</option> 
+                
+                </select>
+                <br><br><label for="hostels">Hostels:</label><br><select name="hostels" id="hostels">
+                    <option value="Seetha">Seetha</option>
+                    <option value="a">Narmada</option>
+                    <option value="Krishna">Green Meadows</option>
+                    <option value="Guntur">Padmavathi</option>
+                    </select>
+                    <br><br><label for="re">Religion:</label>
+                    <br><input type="text"id="re">
+                <br><br><label for="fc">Food Choice:</label><br><select name="fc" id="fc">
+                    <option value="Veg">Veg</option>
+                    <option value="Non-Veg">Non-Veg</option>
+                    </select>
+                <br><br>Past Medical <br>History(if any)<br><br></td>
+            <td><pre>                       </pre></td>
+            <td><label for="db">Date of Birth:</label><br><input type="date" name="" id="db"><br><br><label for="mn">Mobile No:</label><br><input type="text"id="mn">
+                <br><br><label for="rb">Room No & Bed No:</label><input type="text"id="rb">
+                <br><br><label for="ca">Category&Caste:</label><input type="text"id="ca"><br><br></td>
+             <td><pre>                 </pre></td>
+             <td><div class="b"><input type="file" name="" id="file"value="choosen file"></td></div>
+        </tr>
+    </table>    
+        <table>
+        <tr>
+            <td><label for="vi">Village:</label><input type="text"id="vi"></td>
+            <td><pre></pre>                          </pre></td>
+            <td><label for="districts">District:</label><br><select name="District" id="District">
+                    <option value="East Godavari">East Godavari</option>
+                    <option value="West Godavari">West Godavari</option>
+                    <option value="Krishna">Krishna</option>
+                    <option value="Guntur">Guntur</option>
+                    <option value="Visakhapatnam">Visakhapatnam</option>
+                    <option value="Srikakulam">Srikakulam</option>
+                    <option value="Vizianagaram">Vizianagaram</option>
+                    <option value="Kadapa">Kadapa</option>
+                    <option value="Kurnool">Kurnool</option>
+                    <option value="Ananthapuram">Ananthapuram</option>
+                    <option value="Chittor">Chittor</option>
+                    <option value="Prakasam">Prakasam</option>
+                    <option value="Nellore">Nellore</option>
+            
+            </select></td>
+        </tr>
+        <tr>
+            <td><label for="mo">Mandal:</label><input type="text"id="mo"></td>
+            <td><pre>                          </pre></td>
+            <td><label for ="STATE">state:</label><select name="STATE" id="STATE"> 
+                <option value="AP">Andhra Pradesh</option> 
+                <option value="TS">Telangana</option>
+                <option value="others">Others</option></select></td>
+            <td><pre>                               </pre></td>
+            <td><label for="pi">Pincode:</label><input type="text"id="tx"></td>
+        </tr>
+    </table>    
+    <h3><u>PARENT  INFORMATION</u></h3>
+    <table>
+        <tr>
+            <td><label for="fn">Father Name:</label><br><input type="text"id="fn"></td>
+            <td><label for="fm">Father Mobile No:</label><br><input type="text"id="fm"></td>
+            <td><pre>  </pre></td>
+            <td><label for="oc">Occupation:</label><br><input type="text"id="oc"></td>
+        </tr>
+        <tr>
+            <td><label for="mn">Mother Name:</label><br><input type="text"id="mn"></td>
+            <td><label for="mm">Mother mobile No:</label><br><input type="text"id="mm"></td>
+            <td><pre>   </pre></td>
+            <td><label for="of">Occupation:</label><br><input type="text"id="of"></td>
+        </tr>
+        <tr>
+            <td><label for="gn">Guardian-1 Name:</label><br><input type="text"id="gn"></td>
+            <td><label for="gm">Guardian-1 Mobile No:</label><br><input type="text"id="gm"></td>
+            <td><pre>   </pre></td>
+            <td><label for="rs">Relation with the Student:</label><br><input type="text"id="rs"></td>
+        </tr>
+        <tr>
+            <td><label for="gn1">Guardian-1 Name:</label><br><input type="text"id="gn1"></td>
+            <td><label for="gm2">Guardian-2 Mobile No</label><br><input type="text"id="gm2"></td>
+            <td><pre>   </pre></td>
+            <td><label for="rs1">Relation with the Student</label><br><input type="text"id="rs1"></td>
+        </tr>
+        <tr>
+        
+            <div class="a"></div>
+            <div class="b"></div>
+            <div class="c"></div>
+           
+            
+           
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mother & Father Photo</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td><pre> guardian photo 1   </pre></td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Guardian-2Photo</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    I declare that the information furnished above is true and correct to the best my knowledge.I promise that,if admitted to<br>
+    the Hostel ,I will abide by the Rules  regulations of the Hostel as stipulated in the prospectus.
+    <table>
+        <tr>
+            <td><pre>                                                                                                </pre></td>
+            <td><b>Student Signature</b></td>
+        </tr>
+    </table>
+     <br>
+     <br>
+     <br>
+     I request that the above student may kindly be abmitted as a Boarder in Sri Vishnu Educational Society Hostel,Vishnupur.<br>
+     Bhimavaram.I hereby bind myself responsible for her conduct in Hostel,fee dues,damage of Hostel properties,etc.the<br>
+     college/Hostel is not held responsible if my ward leaves the campus without the permission of College/Hostel<br>
+     authorities.
+    <table>
+        <tr>
+            <td><pre>                                                                                                </pre></td>
+            <td><b>Parent Signature</b></td>
+        </tr>
+        <br>
+        <br>
+        <br>
+        <br>
+        <input type="button" value="submit"id="submit">
+    </table>
+</form>
+    </fieldset>
+</body>
+</html>

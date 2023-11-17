@@ -1,7 +1,9 @@
 body{
-  background-image: url(https://i.pinimg.com/originals/f8/49/1f/f8491f5e75b4355702b0fdf58d874417.jpg);
+    background-image: url(https://i.pinimg.com/originals/f8/49/1f/f8491f5e75b4355702b0fdf58d874417.jpg);
     background-repeat: no-repeat;
     background-size:100%
+    
+   
 }
 *{
     margin:0px;
@@ -17,7 +19,7 @@ nav .logo p{
     font-size:30px;
     font-weight: bold;
     float:left;
-    color:rgba(220, 237, 237);}
+    color: azure;}
 nav ul{float:right;}
 nav li{display: inline-block;list-style-type: none;}
 nav li a{font-size:17px;text-decoration:none;padding:0px 30px;color:azure}
@@ -30,10 +32,11 @@ section h1{text-transform:capitalize;font-size:60px;font-family:  Arial, Helveti
     border: 2px solid black;
     width: 150px;
     height: 35px;
-    color: rgb(255, 253, 253);
+    color: white;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     
-    cursor: pointer};
+    cursor:pointer;
+}
